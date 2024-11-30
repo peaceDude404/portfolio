@@ -13,8 +13,6 @@ public class Experience {
     private int id;
     @Column(name = "title")
     private String title;
-    @Column(name = "school")
-    private String school;
     @Column(name = "organisation")
     private String organisation;
     @Column(name = "started_at")
